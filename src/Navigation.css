@@ -1,0 +1,24 @@
+/* free font from https://noonnu.cc/font_page/659 */
+@font-face {
+  font-family: "ROKABold";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2104@1.1/ROKABold.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.brandname {
+  font-family: "ROKABold";
+}
+
+/* free font from https://noonnu.cc/font_page/448 */
+@font-face {
+  font-family: "IBMPlexSansKR-Regular";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/IBMPlexSansKR-Regular.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+.me-auto {
+  font-family: "IBMPlexSansKR-Regular";
+}

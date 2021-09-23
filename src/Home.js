@@ -1,4 +1,4 @@
-import { Container, Jumbotron } from "react-bootstrap";
+import { Container, Jumbotron, Alert } from "react-bootstrap";
 
 import "./Home.css";
 
@@ -26,6 +26,11 @@ export default function Home() {
               <br />
               <br />
               <Icons />
+              <br />
+              <br />
+              <Alert variant="info">
+                <Alert.Heading>010-6657-3022</Alert.Heading>
+              </Alert>
             </h3>
           </Container>
         </Jumbotron>

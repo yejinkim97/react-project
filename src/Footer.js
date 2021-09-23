@@ -25,7 +25,7 @@ export default function Footer() {
         </Col>
         <Col>
           <p className="footer">
-            대표전화: 010-1234-5678
+            대표전화: 010-6657-3022
             <br /> COPYRIGHT(C) ALLCLEAN. ALL RIGHT RESERVED.
             <br /> Website Created by Yejin Kim
           </p>

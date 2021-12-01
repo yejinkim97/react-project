@@ -6,13 +6,10 @@ import Navigation from "./Navigation";
 import Footer from "./Footer";
 import Icons from "./Icons";
 import Cards from "./Cards";
-
-export default function Home() {
-  return (
-    <div className="Home">
-      <Container>
-        <Navigation />
-        <Jumbotron fluid className="main-background">
+import Main from "./Main";
+/**
+ * 
+ *  <Jumbotron fluid className="main-background">
           <Container className="text-center">
             <h1>청소업체 올크린</h1>
             <br />
@@ -34,6 +31,16 @@ export default function Home() {
             </h3>
           </Container>
         </Jumbotron>
+ * 
+ * 
+ */
+export default function Home() {
+  return (
+    <div className="Home">
+      <Container>
+        <Navigation />
+
+        <Main />
         <Cards />
         <Footer />
       </Container>

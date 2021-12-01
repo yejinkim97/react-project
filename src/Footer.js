@@ -25,7 +25,8 @@ export default function Footer() {
         </Col>
         <Col>
           <p className="footer">
-            대표전화: 010-6657-3022
+            상호: 올크린 대표: 김유택 <br />
+            사업자번호: 111-11-11111 대표전화: 010-6657-3022
             <br /> COPYRIGHT(C) ALLCLEAN. ALL RIGHT RESERVED.
             <br /> Website Created by Yejin Kim
           </p>

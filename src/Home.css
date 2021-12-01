@@ -1,7 +1,8 @@
 /*  Photo by Naomi Hébert on Unsplash https://unsplash.com/photos/MP0bgaS_d1c 
-    Photo by Smartworks Coworking on Unsplash https://unsplash.com/photos/E7Tzh2TTS6c */
+    */
 
-/* free font from https://noonnu.cc/font_page/659 */
+/* free font from https://noonnu.cc/font_page/659 
+*/
 @font-face {
   font-family: "ROKABold";
   src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2104@1.1/ROKABold.woff")
@@ -11,7 +12,7 @@
 }
 .main-background {
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url("./naomi-hebert-MP0bgaS_d1c-unsplash.jpg");
+    url("https://source.unsplash.com/MP0bgaS_d1c/");
   background-size: cover;
   color: white;
   padding: 10%;
@@ -28,6 +29,7 @@ h1 {
   font-style: normal;
 }
 p,
+h3,
 .Cards {
   font-family: "IBMPlexSansKR-Regular";
 }
